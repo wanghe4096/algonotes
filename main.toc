@@ -1,0 +1,26 @@
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}数据结构基础}{1}{}%
+\contentsline {section}{\numberline {1.1}线性数据结构}{2}{}%
+\contentsline {subsection}{\numberline {1.1.1}数组}{2}{}%
+\contentsline {subsection}{\numberline {1.1.2}链表}{2}{}%
+\contentsline {subsection}{\numberline {1.1.3}栈}{2}{}%
+\contentsline {subsection}{\numberline {1.1.4}队列}{2}{}%
+\contentsline {section}{\numberline {1.2}非线性数据结构}{2}{}%
+\contentsline {subsection}{\numberline {1.2.1}树}{2}{}%
+\contentsline {subsection}{\numberline {1.2.2}跳跃表}{2}{}%
+\contentsline {subsection}{\numberline {1.2.3}图}{2}{}%
+\contentsline {subsection}{\numberline {1.2.4}散列表}{2}{}%
+\contentsline {subsection}{\numberline {1.2.5}邻接矩阵}{2}{}%
+\contentsline {section}{\numberline {1.3}查找}{2}{}%
+\contentsline {subsection}{\numberline {1.3.1}二分查找}{2}{}%
+\contentsline {section}{\numberline {1.4}排序}{2}{}%
+\contentsline {subsection}{\numberline {1.4.1}归并排序}{2}{}%
+\contentsline {subsection}{\numberline {1.4.2}快速排序}{2}{}%
+\contentsline {subsection}{\numberline {1.4.3}插入排序}{2}{}%
+\contentsline {subsection}{\numberline {1.4.4}希尔排序}{2}{}%
+\contentsline {subsection}{\numberline {1.4.5}基数排序}{2}{}%
+\contentsline {subsection}{\numberline {1.4.6}桶排序}{2}{}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}算法基本思想}{3}{}%
+\contentsline {section}{\numberline {2.1}分治思想}{3}{}%
+\contentsline {section}{\numberline {2.2}递归思想}{3}{}%
+\contentsline {section}{\numberline {2.3}回溯方法}{3}{}%
+\contentsline {section}{\numberline {2.4}动态规划}{3}{}%
