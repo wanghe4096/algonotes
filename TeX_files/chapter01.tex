@@ -6,6 +6,21 @@
 \subsection{队列}
 \section{非线性数据结构}
 \subsection{树}
+\subsubsection{二叉树的遍历}
+
+\begin{lstlisting}{language=c++}
+	void pre_traverse(BTree *tree) {
+	if (bt == NULL)  {
+		return ; 
+	}
+	pre_traverse(tree->left); 
+	pre_traverse(tree->right); 
+}
+
+\end{lstlisting}
+
+\subsubsection{二叉树的增删改查}
+
 \subsection{跳跃表}
 \subsection{图}
 \subsection{散列表}
