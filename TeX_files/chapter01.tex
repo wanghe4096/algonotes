@@ -7,18 +7,41 @@
 \section{非线性数据结构}
 \subsection{树}
 \subsubsection{二叉树的遍历}
-
+\paragraph{先序遍历}
 \begin{lstlisting}{language=c++}
-	void pre_traverse(BTree *tree) {
+	void  PreOrderTraversal(BTree *tree) {
 	if (bt == NULL)  {
 		return ; 
 	}
-	pre_traverse(tree->left); 
-	pre_traverse(tree->right); 
+	VISIT(bt);
+	PreOrderTraversal(tree->left); 
+	PreOrderTraversal(tree->right); 
 }
 
 \end{lstlisting}
+\paragraph{中序遍历}
+\begin{lstlisting}{language=c++}
+	void InorderTraversal(BTree *tree) {
+		if (bt == NULL)  {
+			return ; 
+		}
+		InorderTraversal(tree->left); 
+		VISIT(bt);
+		InorderTraversal(tree->right); 
+	}
+\end{lstlisting}
 
+\paragraph{后序遍历}
+\begin{lstlisting}{language=c++}
+	void PostOrderTraversal(BTree *tree) {
+		if (bt == NULL)  {
+			return ; 
+		}
+		PostOrderTraversal(tree->left); 
+		PostOrderTraversal(tree->right); 
+		VISIT(bt);
+	}
+\end{lstlisting}
 \subsubsection{二叉树的增删改查}
 
 \subsection{跳跃表}
