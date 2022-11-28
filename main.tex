@@ -4,6 +4,11 @@
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{listings}
+\usepackage[colorlinks, linkcolor=blue]{hyperref} % 插入链接
+\usepackage{graphicx} %插入图片的宏包
+\usepackage{float} %设置图片浮动位置的宏包
+\usepackage{subfigure} %插入多图时用子图显示的宏包 
+
 % 定义可能使用到的颜色
 \definecolor{CPPLight}  {HTML} {686868}
 \definecolor{CPPSteel}  {HTML} {888888}
@@ -26,7 +31,7 @@
 	showstringspaces=false,                              % 不显示字符串中的空格
 	tabsize=4,											 %设置tab空格数  
 	extendedchars=false,								 %解决代码跨页时，章节标题，页眉等汉字不显示的问题  
-	language=c++,                                        % 设置语言
+	language=go,                                        % 设置语言
 	morekeywords={alignas,continute,friend,register,true,alignof,decltype,goto,
 		reinterpret_cast,try,asm,defult,if,return,typedef,auto,delete,inline,short,
 		typeid,bool,do,int,signed,typename,break,double,long,sizeof,union,case,

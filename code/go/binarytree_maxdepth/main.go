@@ -17,9 +17,21 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func levelOrder(root *TreeNode) [][]int {
-
+func maxDepth(root *TreeNode) int {
+	if root == nil {
+		return 0
+	}
+	return 1 + Max(maxDepth(root.Left), maxDepth(root.Right))
 }
+
+func Max(a, b int) int {
+	if a > b {
+		return a
+	}
+
+	return b
+}
+
 func main() {
 	fmt.Println("vim-go")
 }
